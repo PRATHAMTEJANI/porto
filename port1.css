@@ -1,0 +1,77 @@
+/* Creative Coder/Engineering Style Portfolio CSS */
+body {
+  font-family: 'Courier New', monospace;
+  background-color: #0d0d0d;
+  color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+header {
+  background: #111;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #0ff;
+}
+header h1 {
+  margin: 0;
+  color: #0ff;
+}
+nav a {
+  color: #0ff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+nav a:hover {
+  color: #ff0;
+}
+section {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+h2 {
+  color: #ff0;
+  border-bottom: 1px solid #555;
+  padding-bottom: 5px;
+}
+article {
+  background: #1a1a1a;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-left: 3px solid #0ff;
+}
+footer {
+  background: #111;
+  text-align: center;
+  padding: 10px;
+  border-top: 2px solid #0ff;
+  font-size: 0.9em;
+}
+input, textarea, button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  background: #222;
+  border: 1px solid #0ff;
+  color: #fff;
+}
+button {
+  background: #0ff;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:hover {
+  background: #ff0;
+}
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+a {
+  color: #0ff;
+}
+a:hover {
+  color: #ff0;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Name — Portfolio</title>
+  <link rel="stylesheet" href="port1.css">
+  <!-- No CSS as requested. You can add a separate CSS file later. -->
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header>
+    <h1>Your Name</h1>
+    <nav>
+      <a href="#about">About</a> |
+      <a href="#skills">Skills</a> |
+      <a href="#projects">Projects</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero section -->
+  <section id="hero">
+    <h2>Hi, I'm Your Name</h2>
+    <p>Short introduction: what you do and what you're passionate about.</p>
+    <p>Location • Role • One-liner about your expertise</p>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Write 3–6 sentences about your background, interests, education, and goals.
+       Keep it concise and personable.</p>
+    <ul>
+      <li>Current position / study</li>
+      <li>Technologies you work with</li>
+      <li>Hobbies or side projects</li>
+    </ul>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <p>Core strengths and tools:</p>
+    <ul>
+      <li>Programming: JavaScript, C, Java (replace with yours)</li>
+      <li>Web: HTML, CSS, React (if applicable)</li>
+      <li>Databases / Tools: MySQL, Git, VS Code</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <article>
+      <h3>Project One — Project Title</h3>
+      <p>Short description of the project, the problem it solves, and your role.</p>
+      <p>Technologies: JS, HTML, Node.js</p>
+      <p><a href="#">Live demo</a> | <a href="#">Source code</a></p>
+    </article>
+
+    <article>
+      <h3>Project Two — Project Title</h3>
+      <p>Short description of the project and key features you built.</p>
+      <p>Technologies: Python, Flask</p>
+      <p><a href="#">Live demo</a> | <a href="#">Source code</a></p>
+    </article>
+
+    <!-- Add more project <article> blocks as needed -->
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Feel free to reach out via email or social links below.</p>
+
+    <p>Email: <a href="mailto:arjuntejani369@gmail">arjuntejani369@gmail</a></p>
+
+    <!-- Simple form (no backend) -->
+    <form method="post" action="#">
+      <label for="name">Name</label><br>
+      <input id="name" name="name" type="text" placeholder="Your name"><br>
+
+      <label for="email">Email</label><br>
+      <input id="email" name="email" type="email" placeholder="arjuntejani369@gmail.com"><br>
+
+      <label for="message">Message</label><br>
+      <textarea id="message" name="message" rows="4" placeholder="Say hello..."></textarea><br>
+
+      <button type="submit">Send</button>
+    </form>
+
+    <p>Social: <a href="#">LinkedIn</a> | <a href="#">GitHub</a> | <a href="#">Twitter</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; <span id="year">2025</span> Your Name. All rights reserved.</p>
+  </footer>
+
+  <!-- Optional tiny script to keep year current (still HTML-only requested) -->
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
